@@ -28,16 +28,6 @@ server.send("hello", "World", function(msg) {
     server.close();
 });
 ```
-### Web Browser
-```html
-<script>
-var server = new Vlix("<URL of server here>");
-server.send("hello", "World", function(msg) {
-    console.log(msg); // Hello World!
-    server.close();
-});
-</script>
-```
 
 # License
 ```
