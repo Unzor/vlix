@@ -16,6 +16,7 @@ server.on("hello", function(message, client){
 ```
 
 ## Connect to server
+### Node.js
 ```js
 var Vlix = require("vlix");
 var {
@@ -26,6 +27,16 @@ server.send("hello", "World", function(msg) {
     console.log(msg); // Hello World!
     server.close();
 });
+```
+### Web Browser
+```html
+<script>
+var server = new Vlix("<URL of server here>");
+server.send("hello", "World", function(msg) {
+    console.log(msg); // Hello World!
+    server.close();
+});
+</script>
 ```
 
 # License
