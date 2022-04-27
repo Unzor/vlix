@@ -1,0 +1,22 @@
+{
+  "name": "vlix",
+  "version": "1.0.1",
+  "description": "A library that lets you communicate to other computers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "communication",
+    "library",
+    "ws",
+    "websocket"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "express-ws": "^5.0.2",
+    "ws": "^8.5.0"
+  }
+}
