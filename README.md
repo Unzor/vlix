@@ -16,7 +16,6 @@ server.on("hello", function(message, client){
 ```
 
 ## Connect to server
-### Node.js
 ```js
 var Vlix = require("vlix");
 var {
